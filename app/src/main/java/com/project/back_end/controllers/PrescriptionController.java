@@ -4,6 +4,7 @@ import com.project.back_end.models.Prescription;
 import com.project.back_end.services.AppointmentService;
 import com.project.back_end.services.HealthcareService;
 import com.project.back_end.services.PrescriptionService;
+import jakarta.validation.Valid;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -27,7 +28,7 @@ public class PrescriptionController {
 
     @PostMapping("/{token}")
     public ResponseEntity<Map<String, String>> savePrescription(
-            @RequestBody Prescription prescription,
+            @Valid @RequestBody Prescription prescription,
             @PathVariable String token) {
 
         ResponseEntity<Map<String, String>> validationResponse = healthcareService.validateToken(token, "doctor");
