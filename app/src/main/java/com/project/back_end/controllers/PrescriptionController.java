@@ -5,10 +5,13 @@ import com.project.back_end.services.AppointmentService;
 import com.project.back_end.services.HealthcareService;
 import com.project.back_end.services.PrescriptionService;
 import jakarta.validation.Valid;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Lazy;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Map;
+
 
 @RestController
 @RequestMapping("${api.path}" + "prescription")
@@ -18,7 +21,7 @@ public class PrescriptionController {
     private final HealthcareService healthcareService;
     private final AppointmentService appointmentService;
 
-    public PrescriptionController(PrescriptionService prescriptionService,
+    public PrescriptionController(@Lazy PrescriptionService prescriptionService,
             HealthcareService healthcareService,
             AppointmentService appointmentService) {
         this.prescriptionService = prescriptionService;

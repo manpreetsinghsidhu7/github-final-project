@@ -75,6 +75,14 @@
 			<optional>true</optional>
 		</dependency>
 
+		<!-- Embedded MongoDB for local dev (no MongoDB installation needed) -->
+		<dependency>
+			<groupId>de.flapdoodle.embed</groupId>
+			<artifactId>de.flapdoodle.embed.mongo.spring3x</artifactId>
+			<version>4.18.0</version>
+		</dependency>
+
+
 <dependency>
     <groupId>io.jsonwebtoken</groupId>
     <artifactId>jjwt-api</artifactId>
