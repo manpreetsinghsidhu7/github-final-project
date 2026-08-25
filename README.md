@@ -84,7 +84,7 @@ java-database-capstone/
 ## Setup Instructions
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/ra-develop/java-database-capstone.git
+   git clone https://github.com/manpreetsinghsidhu7/java-database-capstone.git
    cd java-database-capstone
    ```
 2. **Install Dependencies**:
@@ -113,7 +113,7 @@ java-database-capstone/
 - Used clean coding and MVC principles for scalability.
 
 ## About Me
-I’m Rashid Amanzholov, a software developer with over 10 years of experience in mobile (Flutter, Kotlin) and backend development. This project is part of my IBM Java Developer certification, showcasing my skills in building enterprise backend solutions. Visit my [LinkedIn](https://www.linkedin.com/in/rashid-amanzholov) and [GitHub](https://github.com/ra-develop) for more projects.
+I’m Manpreet Singh Sidhu, a software developer with over 10 years of experience in mobile (Flutter, Kotlin) and backend development. This project is part of my IBM Java Developer certification, showcasing my skills in building enterprise backend solutions. Visit my [LinkedIn](https://www.linkedin.com/in/manpreetsinghsidhu) and [GitHub](https://github.com/manpreetsinghsidhu7) for more projects.
 
 ## License
 This project is licensed under the Apache License. See the `LICENSE` file for details.
